@@ -102,4 +102,7 @@ compound_test2: Stack
 compound_test3: Stack
 	./Stack < Data/compound_test3.input > compound_test3.result
 	./TestPassed.sh compound_test3.result Data/compound_test3.expected
-
+##############################
+# Custom Tests
+	./Stack < Data/customtest1.input > customtest1.result
+	./TestPassed.sh customtest1.result Data/customtest1.expected
