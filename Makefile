@@ -31,7 +31,7 @@ Stack: Stack.o
 
 # compile the `Stack.o` file
 Stack.o: Stack.c
-	$(COMPILER) $(C_FLAGS) -c Stack.c
+	$(COMPILER) $(C_FLAGS) -c -std=c99 Stack.c
 
 ##################################################################
 # Test Cases
